@@ -1,0 +1,7 @@
+#!/bin/bash
+set -x -e
+
+wget -O install-spark-script http://support.elasticmapreduce.s3.amazonaws.com/spark/1.2/install-spark-1.2.py
+python install-spark-script 2014120901
+
+exit 0
